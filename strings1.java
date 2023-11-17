@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class strings1 {
     public static void main(String[] args) {
         String y = new String("Yash");
@@ -18,6 +20,11 @@ public class strings1 {
         System.out.println(y.equals("yash"));
         System.out.println(y.equalsIgnoreCase("YasH"));
         System.out.println("This is Thai Indian Curry \nNevertheless I am the best and \t you go to the helll");
+
+        System.out.println("Taking Input From the User");
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        System.out.println(str);
         
     }
 }
