@@ -1,4 +1,4 @@
-public class j1_primeNumber {
+public class j3_primeNumber {
     public static void main(String[] args) {
         int i, m = 0, flag = 0;
         int n = 3;
